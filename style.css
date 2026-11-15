@@ -235,7 +235,7 @@ input:focus-visible,
   cursor: not-allowed;
 }
 
-/* Finestra impostazioni */
+/* Finestre di dialogo */
 .dialog {
   width: min(92vw, 460px);
   padding: 0;
@@ -245,9 +245,11 @@ input:focus-visible,
   color: var(--text);
 }
 
+.dialog-small { width: min(92vw, 380px); }
+
 .dialog::backdrop { background: rgba(0, 0, 0, 0.45); }
 
-.dialog-body { padding: 1rem; }
+.dialog-body { padding: 1rem; margin: 0; }
 
 .dialog-body h2 {
   margin: 0 0 0.25rem;
@@ -259,6 +261,8 @@ input:focus-visible,
   font-size: 0.9rem;
   color: var(--muted);
 }
+
+.confirm-text { margin: 0 0 0.25rem; }
 
 .rig-list {
   max-height: 50vh;
@@ -302,3 +306,5 @@ input:focus-visible,
   gap: 0.5rem;
   margin-top: 1rem;
 }
+
+.dialog-actions-end { justify-content: flex-end; }
