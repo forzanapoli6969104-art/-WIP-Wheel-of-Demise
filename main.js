@@ -10,6 +10,7 @@ function createWindow() {
     minWidth: 420,
     minHeight: 600,
     title: 'Ruota della Sfortuna',
+    icon: path.join(__dirname, 'icon.png'),
     autoHideMenuBar: true,
     webPreferences: {
       contextIsolation: true,
