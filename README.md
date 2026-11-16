@@ -1,4 +1,4 @@
-# Wheel of Misfortune
+# Wheel of Demise
 
 A customizable Wheel of Fortune, entirely in English. It runs in your browser (GitHub Pages) or as a Windows desktop application.
 
