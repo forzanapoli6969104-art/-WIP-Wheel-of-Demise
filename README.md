@@ -1,25 +1,25 @@
-# Ruota della Sfortuna
+# Wheel of Misfortune
 
-Una ruota della fortuna personalizzabile, interamente in italiano. Funziona nel browser (GitHub Pages) oppure come app per Windows.
+A customizable Wheel of Fortune, entirely in English. It runs in your browser (GitHub Pages) or as a Windows desktop application.
 
-## Funzionalità
+## Features
 
-- Aggiunta, modifica e rimozione delle voci (nomi, numeri, parole, caratteri accentati).
-- La ruota si aggiorna a ogni modifica.
-- Animazione di rotazione con durata casuale.
-- Risultato mostrato al termine del giro.
-- Pulsanti per svuotare la lista e ripristinare lo stato iniziale.
-- Le voci vengono salvate sul dispositivo.
+- Add, edit, and remove entries (names, numbers, words, accented characters).
+- The wheel updates automatically whenever changes are made.
+- Spinning animation with a random duration.
+- Displays the result when the wheel stops.
+- Buttons to clear the list and restore the initial state.
+- Entries are saved locally on the device.
 
-## Struttura
+## Project Structure
 
-| File | Descrizione |
+| File | Description |
 |------|-------------|
-| `index.html`, `style.css`, `script.js` | L'applicazione |
-| `main.js`, `package.json` | Involucro Electron per Windows |
-| `.github/workflows/main.yml` | Pubblicazione su GitHub Pages |
-| `.github/workflows/build-windows.yml` | Build dell'app per Windows |
+| `index.html`, `style.css`, `script.js` | The application |
+| `main.js`, `package.json` | Electron wrapper for Windows |
+| `.github/workflows/main.yml` | GitHub Pages deployment |
+| `.github/workflows/build-windows.yml` | Windows application build |
 
-## Licenza
+## License
 
-MIT. Vedi il file [LICENSE](LICENSE).
+MIT. See the [LICENSE](LICENSE) file.
