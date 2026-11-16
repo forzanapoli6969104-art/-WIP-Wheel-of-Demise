@@ -11,25 +11,6 @@ Una ruota della fortuna personalizzabile, interamente in italiano. Funziona nel 
 - Pulsanti per svuotare la lista e ripristinare lo stato iniziale.
 - Le voci vengono salvate sul dispositivo.
 
-## Uso nel browser
-
-Apri `index.html` con un doppio clic, oppure usa la versione pubblicata su GitHub Pages.
-
-## App per Windows
-
-Il progetto usa Electron. Per ottenere l'app:
-
-1. Vai nella scheda **Actions** del repository.
-2. Scegli **Build Windows app** e premi **Run workflow**.
-3. A build terminata scarica l'artifact **Ruota-della-Sfortuna-portable**, estrailo e avvia `Ruota della Sfortuna.exe`.
-
-Per provarla in locale (serve Node.js):
-
-```bash
-npm install
-npm start
-```
-
 ## Struttura
 
 | File | Descrizione |
