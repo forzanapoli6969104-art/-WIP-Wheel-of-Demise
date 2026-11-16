@@ -1,32 +1,44 @@
-# Wheel-of-Demise
-[WIP]a Wheel of Demise. ONLY IN ITALIAN
-
 # Ruota della Sfortuna
 
-Una ruota della fortuna personalizzabile, interamente in italiano, che funziona direttamente nel browser: nessun backend, nessuna installazione, nessuna dipendenza.
-
-**Demo online:** `https://forzanapoli6969104-art.github.io/Wheel-of-Demise/`
+Una ruota della fortuna personalizzabile, interamente in italiano. Funziona nel browser (GitHub Pages) oppure come app per Windows.
 
 ## Funzionalità
 
 - Aggiunta, modifica e rimozione delle voci (nomi, numeri, parole, caratteri accentati).
-- Ruota che si aggiorna automaticamente a ogni modifica.
+- La ruota si aggiorna a ogni modifica.
 - Animazione di rotazione con durata casuale.
-- Risultato mostrato chiaramente al termine del giro.
+- Risultato mostrato al termine del giro.
 - Pulsanti per svuotare la lista e ripristinare lo stato iniziale.
-- Le voci vengono salvate nel browser (`localStorage`).
-- Layout adatto a desktop e dispositivi mobili.
+- Le voci vengono salvate sul dispositivo.
 
-## Struttura del progetto
+## Uso nel browser
+
+Apri `index.html` con un doppio clic, oppure usa la versione pubblicata su GitHub Pages.
+
+## App per Windows
+
+Il progetto usa Electron. Per ottenere l'app:
+
+1. Vai nella scheda **Actions** del repository.
+2. Scegli **Build Windows app** e premi **Run workflow**.
+3. A build terminata scarica l'artifact **Ruota-della-Sfortuna-portable**, estrailo e avvia `Ruota della Sfortuna.exe`.
+
+Per provarla in locale (serve Node.js):
+
+```bash
+npm install
+npm start
+```
+
+## Struttura
 
 | File | Descrizione |
 |------|-------------|
-| `index.html` | Struttura della pagina |
-| `style.css` | Stile e layout responsive |
-| `script.js` | Logica dell'applicazione, disegno della ruota e animazione |
-| `favicon.svg` | Icona della scheda del browser |
-| `.github/workflows/pages.yml` | Pubblicazione automatica su GitHub Pages |
+| `index.html`, `style.css`, `script.js` | L'applicazione |
+| `main.js`, `package.json` | Involucro Electron per Windows |
+| `.github/workflows/main.yml` | Pubblicazione su GitHub Pages |
+| `.github/workflows/build-windows.yml` | Build dell'app per Windows |
 
 ## Licenza
 
-Distribuito con licenza MIT. Vedi il file [LICENSE](LICENSE).
+MIT. Vedi il file [LICENSE](LICENSE).
