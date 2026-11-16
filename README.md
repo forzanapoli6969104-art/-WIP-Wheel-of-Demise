@@ -1,6 +1,6 @@
 # Wheel of Demise
 
-A customizable Wheel of Fortune, entirely in Italian. It runs in your browser (very very very crude on browser) (GitHub Pages) or as a Windows desktop application.
+A customizable Wheel of Fortune, entirely in Italian. It runs as a Windows desktop application.
 
 ## Features
 
