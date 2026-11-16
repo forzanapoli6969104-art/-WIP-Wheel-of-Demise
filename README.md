@@ -17,15 +17,6 @@ Una ruota della fortuna personalizzabile, interamente in italiano, che funziona 
 - Le voci vengono salvate nel browser (`localStorage`).
 - Layout adatto a desktop e dispositivi mobili.
 
-## Come usarla in locale
-
-Scarica o clona il repository e apri `index.html` con un doppio clic. Non serve nessun server.
-
-```bash
-git clone https://github.com/TUO-USERNAME/ruota-della-sfortuna.git
-cd ruota-della-sfortuna
-```
-
 ## Struttura del progetto
 
 | File | Descrizione |
